@@ -1,0 +1,9 @@
+## Arquivo destinado a compartilhar códigos de linguagem SQL (Select Querry Language)
+
+SELECT
+  *
+FROM
+  TabelaParceiros
+WHERE
+  BETWEEN TO DATE '01-01-2026' ('DD-MM-YYYY')
+    AND TO DATE '31-12-2026' ('DD-MM-YYYY')
